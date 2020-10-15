@@ -13,8 +13,11 @@ This project captures the Temp from UI and API, compares the same using the vari
 
 #Steps to run the project
   Unzip the folder to any location
+  
   Open CMD prompt, CD to the folder extracted above
+  
   Run the following command 
+  
   mvn clean test -DsuiteXMLFile=testng.xml  
 
 

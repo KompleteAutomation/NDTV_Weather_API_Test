@@ -4,9 +4,17 @@ This project captures the Temp from UI and API, compares the same using the vari
 
 #Pre Requisite
   Java is installed and configured on the system 
-  confirm by typing java –version on CMD prompt  
+  confirm by typing 
+  ```
+  java –version
+  ```
+  on CMD prompt  
   Maven is installed and configured on the system
-  confirm by typing mvn –version on CMD prompt
+  confirm by typing 
+  ```
+  mvn –version 
+  ```
+  on CMD prompt
 
   RestAssured is used to send API requests 
   Selenium with Java is used to perform operations on UI
@@ -17,9 +25,9 @@ This project captures the Temp from UI and API, compares the same using the vari
   Open CMD prompt, CD to the folder extracted above
   
   Run the following command 
-  
+  ```
   mvn clean test -DsuiteXMLFile=testng.xml  
-
+  ```
 
   The variance for temperature difference set is as 10 
   The results with failures (Differences is greater than variance (10) 

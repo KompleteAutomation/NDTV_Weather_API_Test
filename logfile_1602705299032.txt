@@ -1,0 +1,419 @@
+INFO - Logging events
+INFO - Opening Chrome Browser
+INFO - Open Weather Menu
+INFO - List of City captured successfully 86
+INFO - Displayed cities successfully
+INFO - Uncheck all cities 
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 36.0 for City Ahmedabad
+INFO - Get Temp using API
+INFO - Temperature on UI is 29.0 for City Bhilai
+INFO - Get Temp using API
+INFO - Temperature from API is 23.950012 for City Bhilai
+INFO - Temperature from API is 30.350006 for City Ahmedabad
+INFO - PASS: Difference between the API and UI temp: 5.049988 for City Bhilai is less than 10
+INFO - PASS: Difference between the API and UI temp: 5.649994 for City Ahmedabad is less than 10
+INFO - Temperature on UI is 34.0 for City Bhilwara
+INFO - Get Temp using API
+INFO - Temperature from API is 25.920013 for City Bhilwara
+INFO - PASS: Difference between the API and UI temp: 8.079987 for City Bhilwara is less than 10
+INFO - Temperature on UI is 27.0 for City Bellary
+INFO - Get Temp using API
+INFO - Temperature from API is 22.550018 for City Bellary
+INFO - PASS: Difference between the API and UI temp: 4.4499817 for City Bellary is less than 10
+INFO - Temperature on UI is 25.0 for City Bengaluru
+INFO - Get Temp using API
+INFO - Temperature from API is 20.0 for City Bengaluru
+INFO - PASS: Difference between the API and UI temp: 5.0 for City Bengaluru is less than 10
+INFO - Temperature on UI is 34.0 for City Amritsar
+INFO - Get Temp using API
+INFO - Temperature from API is 24.0 for City Amritsar
+INFO - PASS: Difference between the API and UI temp: 10.0 for City Amritsar is less than 10
+INFO - Temperature on UI is 34.0 for City Ajmer
+INFO - Get Temp using API
+INFO - Temperature from API is 23.670013 for City Ajmer
+ERROR - FAIL: Difference between the API and UI temp: 10.329987 for City Ajmer is greater than 10
+INFO - Temperature on UI is 34.0 for City Alwar
+INFO - Get Temp using API
+INFO - Temperature from API is 26.24002 for City Alwar
+INFO - PASS: Difference between the API and UI temp: 7.7599792 for City Alwar is less than 10
+INFO - Temperature on UI is 34.0 for City Aligarh
+INFO - Get Temp using API
+INFO - Temperature from API is 26.380005 for City Aligarh
+INFO - PASS: Difference between the API and UI temp: 7.619995 for City Aligarh is less than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Allahabad
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 27.119995 for City Allahabad
+INFO - PASS: Difference between the API and UI temp: 6.880005 for City Allahabad is less than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 30.0 for City Bhiwandi
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Bhiwandi
+INFO - PASS: Difference between the API and UI temp: 4.0 for City Bhiwandi is less than 10
+INFO - Temperature on UI is 32.0 for City Bhopal
+INFO - Get Temp using API
+INFO - Temperature from API is 24.399994 for City Bhopal
+INFO - PASS: Difference between the API and UI temp: 7.600006 for City Bhopal is less than 10
+INFO - Temperature on UI is 28.0 for City Bhubaneswar
+INFO - Get Temp using API
+INFO - Temperature from API is 25.0 for City Bhubaneswar
+INFO - PASS: Difference between the API and UI temp: 3.0 for City Bhubaneswar is less than 10
+INFO - Temperature on UI is 36.0 for City Bikaner
+INFO - Get Temp using API
+INFO - Temperature from API is 28.200012 for City Bikaner
+INFO - PASS: Difference between the API and UI temp: 7.799988 for City Bikaner is less than 10
+INFO - Temperature on UI is 31.0 for City Bilaspur
+INFO - Get Temp using API
+INFO - Temperature from API is 24.790009 for City Bilaspur
+INFO - PASS: Difference between the API and UI temp: 6.2099915 for City Bilaspur is less than 10
+INFO - Temperature on UI is 32.0 for City Bokaro
+INFO - Get Temp using API
+INFO - Temperature from API is 25.410004 for City Bokaro
+INFO - PASS: Difference between the API and UI temp: 6.5899963 for City Bokaro is less than 10
+INFO - Temperature on UI is 34.0 for City Chandigarh
+INFO - Get Temp using API
+INFO - Temperature from API is 21.720001 for City Chandigarh
+ERROR - FAIL: Difference between the API and UI temp: 12.279999 for City Chandigarh is greater than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Chennai
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 28.0 for City Chennai
+INFO - PASS: Difference between the API and UI temp: 6.0 for City Chennai is less than 10
+INFO - Temperature on UI is 31.0 for City Dehra Dun
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 20.940002 for City Dehra Dun
+ERROR - FAIL: Difference between the API and UI temp: 10.059998 for City Dehra Dun is greater than 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 32.0 for City Dhanbad
+INFO - Get Temp using API
+INFO - Temperature from API is 25.75 for City Dhanbad
+INFO - PASS: Difference between the API and UI temp: 6.25 for City Dhanbad is less than 10
+INFO - Temperature on UI is 33.0 for City Gaya
+INFO - Get Temp using API
+INFO - Temperature from API is 25.420013 for City Gaya
+INFO - PASS: Difference between the API and UI temp: 7.5799866 for City Gaya is less than 10
+INFO - Temperature on UI is 32.0 for City Dhule
+INFO - Get Temp using API
+INFO - Temperature from API is 26.399994 for City Dhule
+INFO - PASS: Difference between the API and UI temp: 5.600006 for City Dhule is less than 10
+INFO - Temperature on UI is 36.0 for City Ganganagar
+INFO - Get Temp using API
+INFO - Temperature from API is 24.559998 for City Ganganagar
+ERROR - FAIL: Difference between the API and UI temp: 11.440002 for City Ganganagar is greater than 10
+INFO - Temperature on UI is 33.0 for City Hapur
+INFO - Get Temp using API
+INFO - Temperature from API is 27.0 for City Hapur
+INFO - PASS: Difference between the API and UI temp: 6.0 for City Hapur is less than 10
+INFO - Temperature on UI is 34.0 for City Gorakhpur
+INFO - Get Temp using API
+INFO - Temperature from API is 24.529999 for City Gorakhpur
+INFO - PASS: Difference between the API and UI temp: 9.470001 for City Gorakhpur is less than 10
+INFO - Temperature on UI is 33.0 for City Guwahati
+INFO - Get Temp using API
+INFO - Temperature from API is 25.190002 for City Guwahati
+INFO - PASS: Difference between the API and UI temp: 7.8099976 for City Guwahati is less than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Gwalior
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 26.779999 for City Gwalior
+INFO - PASS: Difference between the API and UI temp: 7.220001 for City Gwalior is less than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 23.0 for City Hubli
+INFO - Temperature on UI is 35.0 for City Hisar
+INFO - Get Temp using API
+INFO - Get Temp using API
+INFO - Temperature from API is 20.089996 for City Hubli
+INFO - PASS: Difference between the API and UI temp: 2.9100037 for City Hubli is less than 10
+INFO - Temperature from API is 25.190002 for City Hisar
+INFO - PASS: Difference between the API and UI temp: 9.809998 for City Hisar is less than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 25.0 for City Hyderabad
+INFO - Get Temp using API
+INFO - Temperature from API is 22.589996 for City Hyderabad
+INFO - PASS: Difference between the API and UI temp: 2.4100037 for City Hyderabad is less than 10
+INFO - Temperature on UI is 30.0 for City Indore
+INFO - Get Temp using API
+INFO - Temperature from API is 24.0 for City Indore
+INFO - PASS: Difference between the API and UI temp: 6.0 for City Indore is less than 10
+INFO - Temperature on UI is 32.0 for City Jabalpur
+INFO - Get Temp using API
+INFO - Temperature from API is 23.380005 for City Jabalpur
+INFO - PASS: Difference between the API and UI temp: 8.619995 for City Jabalpur is less than 10
+INFO - Temperature on UI is 29.0 for City Imphal
+INFO - Get Temp using API
+INFO - Temperature from API is 18.649994 for City Imphal
+ERROR - FAIL: Difference between the API and UI temp: 10.350006 for City Imphal is greater than 10
+INFO - Temperature on UI is 33.0 for City Jaipur
+INFO - Get Temp using API
+INFO - Temperature from API is 29.0 for City Jaipur
+INFO - PASS: Difference between the API and UI temp: 4.0 for City Jaipur is less than 10
+INFO - Temperature on UI is 34.0 for City Jalandhar
+INFO - Get Temp using API
+INFO - Temperature from API is 22.01001 for City Jalandhar
+ERROR - FAIL: Difference between the API and UI temp: 11.98999 for City Jalandhar is greater than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Jammu
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 21.0 for City Jammu
+ERROR - FAIL: Difference between the API and UI temp: 13.0 for City Jammu is greater than 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 37.0 for City Jamnagar
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 30.5 for City Jamnagar
+INFO - PASS: Difference between the API and UI temp: 6.5 for City Jamnagar is less than 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 35.0 for City Jhansi
+INFO - Get Temp using API
+INFO - Temperature from API is 27.52002 for City Jhansi
+INFO - PASS: Difference between the API and UI temp: 7.4799805 for City Jhansi is less than 10
+INFO - Temperature on UI is 32.0 for City Jamshedpur
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 25.26001 for City Jamshedpur
+INFO - PASS: Difference between the API and UI temp: 6.73999 for City Jamshedpur is less than 10
+INFO - Temperature on UI is 36.0 for City Jodhpur
+INFO - Get Temp using API
+INFO - Temperature from API is 27.440002 for City Jodhpur
+INFO - PASS: Difference between the API and UI temp: 8.559998 for City Jodhpur is less than 10
+INFO - Temperature on UI is 35.0 for City Kanpur
+INFO - Get Temp using API
+INFO - Temperature from API is 28.0 for City Kanpur
+INFO - PASS: Difference between the API and UI temp: 7.0 for City Kanpur is less than 10
+INFO - Temperature on UI is 31.0 for City Kharagpur
+INFO - Get Temp using API
+INFO - Temperature from API is 24.830017 for City Kharagpur
+INFO - PASS: Difference between the API and UI temp: 6.169983 for City Kharagpur is less than 10
+INFO - Temperature on UI is 33.0 for City Karnal
+INFO - Get Temp using API
+INFO - Temperature from API is 23.950012 for City Karnal
+INFO - PASS: Difference between the API and UI temp: 9.049988 for City Karnal is less than 10
+INFO - Temperature on UI is 33.0 for City Kolkata
+INFO - Get Temp using API
+INFO - Temperature from API is 28.0 for City Kolkata
+INFO - PASS: Difference between the API and UI temp: 5.0 for City Kolkata is less than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 23.0 for City Kolhapur
+INFO - Get Temp using API
+INFO - Temperature from API is 21.160004 for City Kolhapur
+INFO - PASS: Difference between the API and UI temp: 1.8399963 for City Kolhapur is less than 10
+INFO - Temperature on UI is 34.0 for City Kota
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 27.809998 for City Kota
+INFO - PASS: Difference between the API and UI temp: 6.1900024 for City Kota is less than 10
+INFO - Temperature on UI is 35.0 for City Lucknow
+INFO - Get Temp using API
+INFO - Temperature from API is 28.0 for City Lucknow
+INFO - PASS: Difference between the API and UI temp: 7.0 for City Lucknow is less than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Ludhiana
+INFO - Get Temp using API
+INFO - Temperature from API is 22.140015 for City Ludhiana
+ERROR - FAIL: Difference between the API and UI temp: 11.859985 for City Ludhiana is greater than 10
+INFO - Temperature on UI is 26.0 for City Mangalore
+INFO - Get Temp using API
+INFO - Temperature from API is 25.0 for City Mangalore
+INFO - PASS: Difference between the API and UI temp: 1.0 for City Mangalore is less than 10
+INFO - Temperature on UI is 32.0 for City Moradabad
+INFO - Temperature on UI is 33.0 for City Meerut
+INFO - Get Temp using API
+INFO - Get Temp using API
+INFO - Temperature from API is 25.899994 for City Meerut
+INFO - PASS: Difference between the API and UI temp: 7.100006 for City Meerut is less than 10
+INFO - Temperature from API is 23.170013 for City Moradabad
+INFO - PASS: Difference between the API and UI temp: 8.829987 for City Moradabad is less than 10
+INFO - Temperature on UI is 30.0 for City Mumbai
+INFO - Get Temp using API
+INFO - Temperature from API is 27.0 for City Mumbai
+INFO - PASS: Difference between the API and UI temp: 3.0 for City Mumbai is less than 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 33.0 for City Muzaffarnagar
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 23.230011 for City Muzaffarnagar
+INFO - PASS: Difference between the API and UI temp: 9.769989 for City Muzaffarnagar is less than 10
+INFO - Temperature on UI is 33.0 for City Muzaffarpur
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Muzaffarpur
+INFO - PASS: Difference between the API and UI temp: 7.0 for City Muzaffarpur is less than 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 25.0 for City Mysore
+INFO - Get Temp using API
+INFO - Temperature from API is 18.74002 for City Mysore
+INFO - PASS: Difference between the API and UI temp: 6.2599792 for City Mysore is less than 10
+INFO - Temperature on UI is 30.0 for City Nagpur
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Nagpur
+INFO - PASS: Difference between the API and UI temp: 4.0 for City Nagpur is less than 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 26.0 for City Nanded
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 28.0 for City Nashik
+INFO - Get Temp using API
+INFO - Temperature from API is 22.119995 for City Nashik
+INFO - PASS: Difference between the API and UI temp: 5.880005 for City Nashik is less than 10
+INFO - Temperature on UI is 34.0 for City New Delhi
+INFO - Get Temp using API
+INFO - Temperature from API is 27.369995 for City New Delhi
+INFO - PASS: Difference between the API and UI temp: 6.630005 for City New Delhi is less than 10
+INFO - Temperature on UI is 29.0 for City Navi Mumbai
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Navi Mumbai
+INFO - PASS: Difference between the API and UI temp: 3.0 for City Navi Mumbai is less than 10
+INFO - Temperature on UI is 33.0 for City Panipat
+INFO - Get Temp using API
+INFO - Temperature from API is 24.600006 for City Panipat
+INFO - PASS: Difference between the API and UI temp: 8.399994 for City Panipat is less than 10
+INFO - Temperature on UI is 34.0 for City Patiala
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 22.580017 for City Patiala
+ERROR - FAIL: Difference between the API and UI temp: 11.419983 for City Patiala is greater than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 33.0 for City Patna
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Patna
+INFO - PASS: Difference between the API and UI temp: 7.0 for City Patna is less than 10
+INFO - Temperature on UI is 34.0 for City Pondicherry
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 26.49002 for City Pondicherry
+INFO - PASS: Difference between the API and UI temp: 7.5099792 for City Pondicherry is less than 10
+INFO - Temperature on UI is 37.0 for City Rajkot
+INFO - Get Temp using API
+INFO - Temperature from API is 30.390015 for City Rajkot
+INFO - PASS: Difference between the API and UI temp: 6.6099854 for City Rajkot is less than 10
+INFO - Temperature on UI is 29.0 for City Raipur
+INFO - Get Temp using API
+INFO - Temperature from API is 23.860016 for City Raipur
+INFO - PASS: Difference between the API and UI temp: 5.139984 for City Raipur is less than 10
+INFO - Temperature on UI is 23.0 for City Pune
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 22.790009 for City Pune
+INFO - PASS: Difference between the API and UI temp: 0.20999146 for City Pune is less than 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 32.0 for City Ratlam
+INFO - Get Temp using API
+INFO - Temperature from API is 25.429993 for City Ratlam
+INFO - PASS: Difference between the API and UI temp: 6.5700073 for City Ratlam is less than 10
+INFO - Temperature on UI is 34.0 for City Rohtak
+INFO - Get Temp using API
+INFO - Temperature from API is 27.0 for City Rohtak
+INFO - PASS: Difference between the API and UI temp: 7.0 for City Rohtak is less than 10
+INFO - Temperature on UI is 29.0 for City Ranchi
+INFO - Get Temp using API
+INFO - Temperature from API is 22.230011 for City Ranchi
+INFO - PASS: Difference between the API and UI temp: 6.769989 for City Ranchi is less than 10
+INFO - Temperature on UI is 33.0 for City Saharanpur
+INFO - Get Temp using API
+INFO - Temperature from API is 22.140015 for City Saharanpur
+ERROR - FAIL: Difference between the API and UI temp: 10.859985 for City Saharanpur is greater than 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 23.0 for City Sholapur
+INFO - Get Temp using API
+INFO - Temperature from API is 22.640015 for City Sholapur
+INFO - PASS: Difference between the API and UI temp: 0.35998535 for City Sholapur is less than 10
+INFO - Temperature on UI is 25.0 for City Sikandarabad
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 27.420013 for City Sikandarabad
+INFO - PASS: Difference between the API and UI temp: 2.4200134 for City Sikandarabad is less than 10
+INFO - Temperature on UI is 33.0 for City Surat
+INFO - Get Temp using API
+INFO - Temperature from API is 28.040009 for City Surat
+INFO - PASS: Difference between the API and UI temp: 4.9599915 for City Surat is less than 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 26.0 for City Srinagar
+INFO - Get Temp using API
+INFO - Temperature from API is 11.860016 for City Srinagar
+ERROR - FAIL: Difference between the API and UI temp: 14.139984 for City Srinagar is greater than 10
+INFO - Temperature on UI is 35.0 for City Vadodara
+INFO - Get Temp using API
+INFO - Temperature from API is 29.570007 for City Vadodara
+INFO - PASS: Difference between the API and UI temp: 5.4299927 for City Vadodara is less than 10
+INFO - Temperature on UI is 33.0 for City Tirupati
+INFO - Get Temp using API
+INFO - Temperature from API is 23.74002 for City Tirupati
+INFO - PASS: Difference between the API and UI temp: 9.259979 for City Tirupati is less than 10
+INFO - Temperature on UI is 32.0 for City Udaipur
+INFO - Get Temp using API
+INFO - Temperature from API is 24.360016 for City Udaipur
+INFO - PASS: Difference between the API and UI temp: 7.639984 for City Udaipur is less than 10
+INFO - Temperature on UI is 34.0 for City Varanasi
+INFO - Get Temp using API
+INFO - Temperature on UI is 30.0 for City Vijayawada
+INFO - Get Temp using API
+INFO - Temperature from API is 24.26001 for City Vijayawada
+INFO - PASS: Difference between the API and UI temp: 5.73999 for City Vijayawada is less than 10
+INFO - Temperature from API is 27.0 for City Varanasi
+INFO - PASS: Difference between the API and UI temp: 7.0 for City Varanasi is less than 10
+INFO - Temperature on UI is 28.0 for City Visakhapatnam
+INFO - Get Temp using API
+INFO - Temperature from API is 27.0 for City Visakhapatnam
+INFO - PASS: Difference between the API and UI temp: 1.0 for City Visakhapatnam is less than 10
+INFO - Temperature on UI is 27.0 for City Warangal
+INFO - Get Temp using API
+INFO - Temperature from API is 23.300018 for City Warangal
+INFO - PASS: Difference between the API and UI temp: 3.6999817 for City Warangal is less than 10
+INFO - Close the Browser

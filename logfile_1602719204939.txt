@@ -1,0 +1,420 @@
+INFO - Logging events
+INFO - Opening Chrome Browser
+INFO - Clicked on 'No Thanks' Prompt
+INFO - Open Weather Menu
+INFO - List of City captured successfully 86
+INFO - Displayed cities successfully
+INFO - Uncheck all cities 
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 25.0 for City Bengaluru
+INFO - Get Temp using API
+INFO - Temperature on UI is 34.0 for City Bhilwara
+INFO - Get Temp using API
+INFO - Temperature on UI is 34.0 for City Alwar
+INFO - Get Temp using API
+INFO - Temperature from API is 24.809998 for City Bhilwara
+INFO - Temperature from API is 20.0 for City Bengaluru
+INFO - PASS: Difference between the API 24.809998 and UI 34.0 temp: 9.190002 for City Bhilwara is less than variance set: 10
+INFO - PASS: Difference between the API 20.0 and UI 25.0 temp: 5.0 for City Bengaluru is less than variance set: 10
+INFO - Temperature from API is 24.830017 for City Alwar
+INFO - PASS: Difference between the API 24.830017 and UI 34.0 temp: 9.169983 for City Alwar is less than variance set: 10
+INFO - Temperature on UI is 27.0 for City Bellary
+INFO - Get Temp using API
+INFO - Temperature from API is 21.690002 for City Bellary
+INFO - PASS: Difference between the API 21.690002 and UI 27.0 temp: 5.3099976 for City Bellary is less than variance set: 10
+INFO - Temperature on UI is 36.0 for City Ahmedabad
+INFO - Get Temp using API
+INFO - Temperature from API is 28.869995 for City Ahmedabad
+INFO - PASS: Difference between the API 28.869995 and UI 36.0 temp: 7.130005 for City Ahmedabad is less than variance set: 10
+INFO - Temperature on UI is 29.0 for City Bhilai
+INFO - Get Temp using API
+INFO - Temperature from API is 22.860016 for City Bhilai
+INFO - PASS: Difference between the API 22.860016 and UI 29.0 temp: 6.139984 for City Bhilai is less than variance set: 10
+INFO - Temperature on UI is 34.0 for City Allahabad
+INFO - Get Temp using API
+INFO - Temperature from API is 26.170013 for City Allahabad
+INFO - PASS: Difference between the API 26.170013 and UI 34.0 temp: 7.8299866 for City Allahabad is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Aligarh
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 24.429993 for City Aligarh
+INFO - PASS: Difference between the API 24.429993 and UI 34.0 temp: 9.570007 for City Aligarh is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Ajmer
+INFO - Get Temp using API
+INFO - Temperature from API is 23.559998 for City Ajmer
+ERROR - FAIL: Difference between the API 23.559998 and UI 34.0 temp: 10.440002 for City Ajmer is greater than variance set:10
+INFO - Temperature on UI is 34.0 for City Amritsar
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 18.0 for City Amritsar
+ERROR - FAIL: Difference between the API 18.0 and UI 34.0 temp: 16.0 for City Amritsar is greater than variance set:10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 30.0 for City Bhiwandi
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Bhiwandi
+INFO - PASS: Difference between the API 26.0 and UI 30.0 temp: 4.0 for City Bhiwandi is less than variance set: 10
+INFO - Temperature on UI is 32.0 for City Bhopal
+INFO - Get Temp using API
+INFO - Temperature from API is 23.830017 for City Bhopal
+INFO - PASS: Difference between the API 23.830017 and UI 32.0 temp: 8.169983 for City Bhopal is less than variance set: 10
+INFO - Temperature on UI is 28.0 for City Bhubaneswar
+INFO - Get Temp using API
+INFO - Temperature from API is 25.0 for City Bhubaneswar
+INFO - PASS: Difference between the API 25.0 and UI 28.0 temp: 3.0 for City Bhubaneswar is less than variance set: 10
+INFO - Temperature on UI is 36.0 for City Bikaner
+INFO - Get Temp using API
+INFO - Temperature from API is 25.630005 for City Bikaner
+ERROR - FAIL: Difference between the API 25.630005 and UI 36.0 temp: 10.369995 for City Bikaner is greater than variance set:10
+INFO - Temperature on UI is 31.0 for City Bilaspur
+INFO - Get Temp using API
+INFO - Temperature from API is 23.440002 for City Bilaspur
+INFO - PASS: Difference between the API 23.440002 and UI 31.0 temp: 7.5599976 for City Bilaspur is less than variance set: 10
+INFO - Temperature on UI is 32.0 for City Bokaro
+INFO - Get Temp using API
+INFO - Temperature from API is 24.610016 for City Bokaro
+INFO - PASS: Difference between the API 24.610016 and UI 32.0 temp: 7.389984 for City Bokaro is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Chandigarh
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 21.059998 for City Chandigarh
+ERROR - FAIL: Difference between the API 21.059998 and UI 34.0 temp: 12.940002 for City Chandigarh is greater than variance set:10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Chennai
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 27.0 for City Chennai
+INFO - PASS: Difference between the API 27.0 and UI 34.0 temp: 7.0 for City Chennai is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 31.0 for City Dehra Dun
+INFO - Get Temp using API
+INFO - Temperature from API is 20.330017 for City Dehra Dun
+ERROR - FAIL: Difference between the API 20.330017 and UI 31.0 temp: 10.669983 for City Dehra Dun is greater than variance set:10
+INFO - Temperature on UI is 32.0 for City Dhule
+INFO - Get Temp using API
+INFO - Temperature from API is 25.950012 for City Dhule
+INFO - PASS: Difference between the API 25.950012 and UI 32.0 temp: 6.049988 for City Dhule is less than variance set: 10
+INFO - Temperature on UI is 32.0 for City Dhanbad
+INFO - Get Temp using API
+INFO - Temperature from API is 25.040009 for City Dhanbad
+INFO - PASS: Difference between the API 25.040009 and UI 32.0 temp: 6.9599915 for City Dhanbad is less than variance set: 10
+INFO - Temperature on UI is 36.0 for City Ganganagar
+INFO - Get Temp using API
+INFO - Temperature from API is 22.149994 for City Ganganagar
+ERROR - FAIL: Difference between the API 22.149994 and UI 36.0 temp: 13.850006 for City Ganganagar is greater than variance set:10
+INFO - Temperature on UI is 33.0 for City Guwahati
+INFO - Get Temp using API
+INFO - Temperature from API is 24.320007 for City Guwahati
+INFO - PASS: Difference between the API 24.320007 and UI 33.0 temp: 8.679993 for City Guwahati is less than variance set: 10
+INFO - Temperature on UI is 34.0 for City Gorakhpur
+INFO - Get Temp using API
+INFO - Temperature from API is 21.830017 for City Gorakhpur
+ERROR - FAIL: Difference between the API 21.830017 and UI 34.0 temp: 12.169983 for City Gorakhpur is greater than variance set:10
+INFO - Temperature on UI is 33.0 for City Gaya
+INFO - Get Temp using API
+INFO - Temperature from API is 24.830017 for City Gaya
+INFO - PASS: Difference between the API 24.830017 and UI 33.0 temp: 8.169983 for City Gaya is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Gwalior
+INFO - Get Temp using API
+INFO - Temperature from API is 25.390015 for City Gwalior
+INFO - PASS: Difference between the API 25.390015 and UI 34.0 temp: 8.609985 for City Gwalior is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 33.0 for City Hapur
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 26.0 for City Hapur
+INFO - PASS: Difference between the API 26.0 and UI 33.0 temp: 7.0 for City Hapur is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 35.0 for City Hisar
+INFO - Get Temp using API
+INFO - Temperature from API is 22.869995 for City Hisar
+ERROR - FAIL: Difference between the API 22.869995 and UI 35.0 temp: 12.130005 for City Hisar is greater than variance set:10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 23.0 for City Hubli
+INFO - Get Temp using API
+INFO - Temperature on UI is 25.0 for City Hyderabad
+INFO - Get Temp using API
+INFO - Temperature from API is 20.119995 for City Hubli
+INFO - Temperature from API is 22.580017 for City Hyderabad
+INFO - PASS: Difference between the API 20.119995 and UI 23.0 temp: 2.880005 for City Hubli is less than variance set: 10
+INFO - PASS: Difference between the API 22.580017 and UI 25.0 temp: 2.419983 for City Hyderabad is less than variance set: 10
+INFO - Temperature on UI is 29.0 for City Imphal
+INFO - Get Temp using API
+INFO - Temperature from API is 17.74002 for City Imphal
+ERROR - FAIL: Difference between the API 17.74002 and UI 29.0 temp: 11.259979 for City Imphal is greater than variance set:10
+INFO - Temperature on UI is 30.0 for City Indore
+INFO - Get Temp using API
+INFO - Temperature from API is 22.690002 for City Indore
+INFO - PASS: Difference between the API 22.690002 and UI 30.0 temp: 7.3099976 for City Indore is less than variance set: 10
+INFO - Temperature on UI is 32.0 for City Jabalpur
+INFO - Get Temp using API
+INFO - Temperature from API is 22.619995 for City Jabalpur
+INFO - PASS: Difference between the API 22.619995 and UI 32.0 temp: 9.380005 for City Jabalpur is less than variance set: 10
+INFO - Temperature on UI is 33.0 for City Jaipur
+INFO - Get Temp using API
+INFO - Temperature from API is 28.0 for City Jaipur
+INFO - PASS: Difference between the API 28.0 and UI 33.0 temp: 5.0 for City Jaipur is less than variance set: 10
+INFO - Temperature on UI is 34.0 for City Jalandhar
+INFO - Get Temp using API
+INFO - Temperature from API is 20.070007 for City Jalandhar
+ERROR - FAIL: Difference between the API 20.070007 and UI 34.0 temp: 13.929993 for City Jalandhar is greater than variance set:10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Jammu
+INFO - Get Temp using API
+INFO - Temperature from API is 20.0 for City Jammu
+ERROR - FAIL: Difference between the API 20.0 and UI 34.0 temp: 14.0 for City Jammu is greater than variance set:10
+INFO - Temperature on UI is 37.0 for City Jamnagar
+INFO - Get Temp using API
+INFO - Temperature from API is 29.24002 for City Jamnagar
+INFO - PASS: Difference between the API 29.24002 and UI 37.0 temp: 7.7599792 for City Jamnagar is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 32.0 for City Jamshedpur
+INFO - Get Temp using API
+INFO - Temperature from API is 24.570007 for City Jamshedpur
+INFO - PASS: Difference between the API 24.570007 and UI 32.0 temp: 7.4299927 for City Jamshedpur is less than variance set: 10
+INFO - Temperature on UI is 35.0 for City Jhansi
+INFO - Get Temp using API
+INFO - Temperature from API is 25.74002 for City Jhansi
+INFO - PASS: Difference between the API 25.74002 and UI 35.0 temp: 9.259979 for City Jhansi is less than variance set: 10
+INFO - Temperature on UI is 36.0 for City Jodhpur
+INFO - Get Temp using API
+INFO - Temperature from API is 25.720001 for City Jodhpur
+ERROR - FAIL: Difference between the API 25.720001 and UI 36.0 temp: 10.279999 for City Jodhpur is greater than variance set:10
+INFO - Temperature on UI is 31.0 for City Kharagpur
+INFO - Get Temp using API
+INFO - Temperature from API is 24.320007 for City Kharagpur
+INFO - PASS: Difference between the API 24.320007 and UI 31.0 temp: 6.6799927 for City Kharagpur is less than variance set: 10
+INFO - Temperature on UI is 35.0 for City Kanpur
+INFO - Get Temp using API
+INFO - Temperature from API is 27.0 for City Kanpur
+INFO - PASS: Difference between the API 27.0 and UI 35.0 temp: 8.0 for City Kanpur is less than variance set: 10
+INFO - Temperature on UI is 33.0 for City Karnal
+INFO - Get Temp using API
+INFO - Temperature from API is 20.700012 for City Karnal
+ERROR - FAIL: Difference between the API 20.700012 and UI 33.0 temp: 12.299988 for City Karnal is greater than variance set:10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 23.0 for City Kolhapur
+INFO - Get Temp using API
+INFO - Temperature from API is 20.830017 for City Kolhapur
+INFO - PASS: Difference between the API 20.830017 and UI 23.0 temp: 2.169983 for City Kolhapur is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 33.0 for City Kolkata
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 27.0 for City Kolkata
+INFO - PASS: Difference between the API 27.0 and UI 33.0 temp: 6.0 for City Kolkata is less than variance set: 10
+INFO - Temperature on UI is 34.0 for City Kota
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 25.550018 for City Kota
+INFO - PASS: Difference between the API 25.550018 and UI 34.0 temp: 8.449982 for City Kota is less than variance set: 10
+INFO - Temperature on UI is 35.0 for City Lucknow
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 27.0 for City Lucknow
+INFO - PASS: Difference between the API 27.0 and UI 35.0 temp: 8.0 for City Lucknow is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Ludhiana
+INFO - Get Temp using API
+INFO - Temperature from API is 20.200012 for City Ludhiana
+ERROR - FAIL: Difference between the API 20.200012 and UI 34.0 temp: 13.799988 for City Ludhiana is greater than variance set:10
+INFO - Temperature on UI is 32.0 for City Moradabad
+INFO - Get Temp using API
+INFO - Temperature from API is 21.399994 for City Moradabad
+ERROR - FAIL: Difference between the API 21.399994 and UI 32.0 temp: 10.600006 for City Moradabad is greater than variance set:10
+INFO - Temperature on UI is 33.0 for City Meerut
+INFO - Get Temp using API
+INFO - Temperature from API is 23.290009 for City Meerut
+INFO - PASS: Difference between the API 23.290009 and UI 33.0 temp: 9.709991 for City Meerut is less than variance set: 10
+INFO - Temperature on UI is 26.0 for City Mangalore
+INFO - Get Temp using API
+INFO - Temperature from API is 25.0 for City Mangalore
+INFO - PASS: Difference between the API 25.0 and UI 26.0 temp: 1.0 for City Mangalore is less than variance set: 10
+INFO - Temperature on UI is 30.0 for City Mumbai
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Mumbai
+INFO - PASS: Difference between the API 26.0 and UI 30.0 temp: 4.0 for City Mumbai is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 33.0 for City Muzaffarnagar
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 21.0 for City Muzaffarnagar
+ERROR - FAIL: Difference between the API 21.0 and UI 33.0 temp: 12.0 for City Muzaffarnagar is greater than variance set:10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 33.0 for City Muzaffarpur
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Muzaffarpur
+INFO - PASS: Difference between the API 26.0 and UI 33.0 temp: 7.0 for City Muzaffarpur is less than variance set: 10
+INFO - Temperature on UI is 25.0 for City Mysore
+INFO - Get Temp using API
+INFO - Temperature from API is 18.330017 for City Mysore
+INFO - PASS: Difference between the API 18.330017 and UI 25.0 temp: 6.669983 for City Mysore is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 30.0 for City Nagpur
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 25.0 for City Nagpur
+INFO - PASS: Difference between the API 25.0 and UI 30.0 temp: 5.0 for City Nagpur is less than variance set: 10
+INFO - Temperature on UI is 26.0 for City Nanded
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City New Delhi
+INFO - Get Temp using API
+INFO - Temperature from API is 27.080017 for City New Delhi
+INFO - PASS: Difference between the API 27.080017 and UI 34.0 temp: 6.919983 for City New Delhi is less than variance set: 10
+INFO - Temperature on UI is 29.0 for City Navi Mumbai
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Navi Mumbai
+INFO - PASS: Difference between the API 26.0 and UI 29.0 temp: 3.0 for City Navi Mumbai is less than variance set: 10
+INFO - Temperature on UI is 28.0 for City Nashik
+INFO - Get Temp using API
+INFO - Temperature from API is 22.410004 for City Nashik
+INFO - PASS: Difference between the API 22.410004 and UI 28.0 temp: 5.5899963 for City Nashik is less than variance set: 10
+INFO - Temperature on UI is 33.0 for City Panipat
+INFO - Get Temp using API
+INFO - Temperature from API is 21.709991 for City Panipat
+ERROR - FAIL: Difference between the API 21.709991 and UI 33.0 temp: 11.290009 for City Panipat is greater than variance set:10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Patiala
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 20.589996 for City Patiala
+ERROR - FAIL: Difference between the API 20.589996 and UI 34.0 temp: 13.410004 for City Patiala is greater than variance set:10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 33.0 for City Patna
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 26.0 for City Patna
+INFO - PASS: Difference between the API 26.0 and UI 33.0 temp: 7.0 for City Patna is less than variance set: 10
+INFO - Temperature on UI is 34.0 for City Pondicherry
+INFO - Get Temp using API
+INFO - Temperature from API is 25.170013 for City Pondicherry
+INFO - PASS: Difference between the API 25.170013 and UI 34.0 temp: 8.829987 for City Pondicherry is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 23.0 for City Pune
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 22.679993 for City Pune
+INFO - PASS: Difference between the API 22.679993 and UI 23.0 temp: 0.32000732 for City Pune is less than variance set: 10
+INFO - Temperature on UI is 37.0 for City Rajkot
+INFO - Get Temp using API
+INFO - Temperature from API is 28.279999 for City Rajkot
+INFO - PASS: Difference between the API 28.279999 and UI 37.0 temp: 8.720001 for City Rajkot is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 32.0 for City Ratlam
+INFO - Get Temp using API
+INFO - Temperature on UI is 29.0 for City Raipur
+INFO - Get Temp using API
+INFO - Temperature on UI is 29.0 for City Ranchi
+INFO - Get Temp using API
+INFO - Temperature from API is 22.850006 for City Raipur
+INFO - Temperature from API is 21.470001 for City Ranchi
+INFO - PASS: Difference between the API 22.850006 and UI 29.0 temp: 6.149994 for City Raipur is less than variance set: 10
+INFO - PASS: Difference between the API 21.470001 and UI 29.0 temp: 7.529999 for City Ranchi is less than variance set: 10
+INFO - Temperature from API is 23.899994 for City Ratlam
+INFO - PASS: Difference between the API 23.899994 and UI 32.0 temp: 8.100006 for City Ratlam is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Rohtak
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Rohtak
+INFO - PASS: Difference between the API 26.0 and UI 34.0 temp: 8.0 for City Rohtak is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 33.0 for City Saharanpur
+INFO - Get Temp using API
+INFO - Temperature from API is 20.839996 for City Saharanpur
+ERROR - FAIL: Difference between the API 20.839996 and UI 33.0 temp: 12.160004 for City Saharanpur is greater than variance set:10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 23.0 for City Sholapur
+INFO - Get Temp using API
+INFO - Select the city on the pin menu
+INFO - Temperature from API is 22.570007 for City Sholapur
+INFO - PASS: Difference between the API 22.570007 and UI 23.0 temp: 0.42999268 for City Sholapur is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 25.0 for City Sikandarabad
+INFO - Get Temp using API
+INFO - Temperature from API is 27.200012 for City Sikandarabad
+INFO - PASS: Difference between the API 27.200012 and UI 25.0 temp: 2.2000122 for City Sikandarabad is less than variance set: 10
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 26.0 for City Srinagar
+INFO - Get Temp using API
+INFO - Temperature from API is 10.160004 for City Srinagar
+ERROR - FAIL: Difference between the API 10.160004 and UI 26.0 temp: 15.839996 for City Srinagar is greater than variance set:10
+INFO - Temperature on UI is 33.0 for City Surat
+INFO - Get Temp using API
+INFO - Temperature from API is 27.690002 for City Surat
+INFO - PASS: Difference between the API 27.690002 and UI 33.0 temp: 5.3099976 for City Surat is less than variance set: 10
+INFO - Temperature on UI is 33.0 for City Tirupati
+INFO - Get Temp using API
+INFO - Temperature from API is 23.709991 for City Tirupati
+INFO - PASS: Difference between the API 23.709991 and UI 33.0 temp: 9.290009 for City Tirupati is less than variance set: 10
+INFO - Temperature on UI is 32.0 for City Udaipur
+INFO - Get Temp using API
+INFO - Temperature on UI is 35.0 for City Vadodara
+INFO - Get Temp using API
+INFO - Temperature from API is 23.580017 for City Udaipur
+INFO - PASS: Difference between the API 23.580017 and UI 32.0 temp: 8.419983 for City Udaipur is less than variance set: 10
+INFO - Temperature from API is 27.300018 for City Vadodara
+INFO - PASS: Difference between the API 27.300018 and UI 35.0 temp: 7.6999817 for City Vadodara is less than variance set: 10
+INFO - Temperature on UI is 34.0 for City Varanasi
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Varanasi
+INFO - PASS: Difference between the API 26.0 and UI 34.0 temp: 8.0 for City Varanasi is less than variance set: 10
+INFO - Temperature on UI is 30.0 for City Vijayawada
+INFO - Get Temp using API
+INFO - Temperature from API is 24.070007 for City Vijayawada
+INFO - PASS: Difference between the API 24.070007 and UI 30.0 temp: 5.9299927 for City Vijayawada is less than variance set: 10
+INFO - Temperature on UI is 27.0 for City Warangal
+INFO - Get Temp using API
+INFO - Temperature on UI is 28.0 for City Visakhapatnam
+INFO - Get Temp using API
+INFO - Temperature from API is 26.0 for City Visakhapatnam
+INFO - PASS: Difference between the API 26.0 and UI 28.0 temp: 2.0 for City Visakhapatnam is less than variance set: 10
+INFO - Temperature from API is 22.630005 for City Warangal
+INFO - PASS: Difference between the API 22.630005 and UI 27.0 temp: 4.369995 for City Warangal is less than variance set: 10
+INFO - Close the Browser

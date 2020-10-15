@@ -1,0 +1,2795 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 26 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-master">
+              <span class="suite-name border-failed">master</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-master">
+                    <span>E:\Vorstel\TestVagrant\NDTVTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-master">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-master">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-master">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-master">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-master">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-master">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">89 methods, 26 failed,   63 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-master" class="hide-methods failed suite-master"> (hide)</a> <!-- hide-methods failed suite-master -->
+                      <a href="#" panel-name="suite-master" class="show-methods failed suite-master"> (show)</a> <!-- show-methods failed suite-master -->
+                    </span>
+                    <div class="method-list-content failed suite-master">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@befb6af)">getTemp(com.temp.test.City@befb6af)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@33badf9b)">getTemp(com.temp.test.City@33badf9b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@4ecee6f3)">getTemp(com.temp.test.City@4ecee6f3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@cc45e0c)">getTemp(com.temp.test.City@cc45e0c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2947baa3)">getTemp(com.temp.test.City@2947baa3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@fcfcdb9)">getTemp(com.temp.test.City@fcfcdb9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@7e005f1e)">getTemp(com.temp.test.City@7e005f1e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@56809717)">getTemp(com.temp.test.City@56809717)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@4b6ecd02)">getTemp(com.temp.test.City@4b6ecd02)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@3ace427)">getTemp(com.temp.test.City@3ace427)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@c8922bd)">getTemp(com.temp.test.City@c8922bd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@3dc53d20)">getTemp(com.temp.test.City@3dc53d20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2d39b4ac)">getTemp(com.temp.test.City@2d39b4ac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@20fa1bb3)">getTemp(com.temp.test.City@20fa1bb3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@283ffa91)">getTemp(com.temp.test.City@283ffa91)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@41823338)">getTemp(com.temp.test.City@41823338)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@46042329)">getTemp(com.temp.test.City@46042329)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@704615c9)">getTemp(com.temp.test.City@704615c9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@70996d85)">getTemp(com.temp.test.City@70996d85)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2ed9225f)">getTemp(com.temp.test.City@2ed9225f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@41bbfee)">getTemp(com.temp.test.City@41bbfee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@401c0933)">getTemp(com.temp.test.City@401c0933)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@5d187042)">getTemp(com.temp.test.City@5d187042)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2c70ea4f)">getTemp(com.temp.test.City@2c70ea4f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@d4da5f9)">getTemp(com.temp.test.City@d4da5f9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@63a1797a)">getTemp(com.temp.test.City@63a1797a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-master -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-master" class="hide-methods passed suite-master"> (hide)</a> <!-- hide-methods passed suite-master -->
+                      <a href="#" panel-name="suite-master" class="show-methods passed suite-master"> (show)</a> <!-- show-methods passed suite-master -->
+                    </span>
+                    <div class="method-list-content passed suite-master">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="TestAddCity">TestAddCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="TestPrintCities">TestPrintCities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@4dc4a612)">getTemp(com.temp.test.City@4dc4a612)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@23898ef1)">getTemp(com.temp.test.City@23898ef1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@6635c29b)">getTemp(com.temp.test.City@6635c29b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@16a931bb)">getTemp(com.temp.test.City@16a931bb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@782a92)">getTemp(com.temp.test.City@782a92)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2d464ef4)">getTemp(com.temp.test.City@2d464ef4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@3dcffb54)">getTemp(com.temp.test.City@3dcffb54)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@5c7c3f4f)">getTemp(com.temp.test.City@5c7c3f4f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@3387131)">getTemp(com.temp.test.City@3387131)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@542160ff)">getTemp(com.temp.test.City@542160ff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@1c45ae14)">getTemp(com.temp.test.City@1c45ae14)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@133ce90c)">getTemp(com.temp.test.City@133ce90c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@3208d0ce)">getTemp(com.temp.test.City@3208d0ce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@60fe5828)">getTemp(com.temp.test.City@60fe5828)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2cb18b80)">getTemp(com.temp.test.City@2cb18b80)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@12e505df)">getTemp(com.temp.test.City@12e505df)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@76d18f0a)">getTemp(com.temp.test.City@76d18f0a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@1c355f53)">getTemp(com.temp.test.City@1c355f53)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2c41ae11)">getTemp(com.temp.test.City@2c41ae11)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2810dc9f)">getTemp(com.temp.test.City@2810dc9f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@28dd9748)">getTemp(com.temp.test.City@28dd9748)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@f4deffa)">getTemp(com.temp.test.City@f4deffa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@7f90a8d8)">getTemp(com.temp.test.City@7f90a8d8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@409e5689)">getTemp(com.temp.test.City@409e5689)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@5f4df434)">getTemp(com.temp.test.City@5f4df434)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@402fca48)">getTemp(com.temp.test.City@402fca48)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@71532ea5)">getTemp(com.temp.test.City@71532ea5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@3792845b)">getTemp(com.temp.test.City@3792845b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@7bbfb230)">getTemp(com.temp.test.City@7bbfb230)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@45c950ed)">getTemp(com.temp.test.City@45c950ed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@9ea34dc)">getTemp(com.temp.test.City@9ea34dc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@3201b64e)">getTemp(com.temp.test.City@3201b64e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@654d968c)">getTemp(com.temp.test.City@654d968c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2ed9e98c)">getTemp(com.temp.test.City@2ed9e98c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@54807c63)">getTemp(com.temp.test.City@54807c63)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2b10acd)">getTemp(com.temp.test.City@2b10acd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@59e03992)">getTemp(com.temp.test.City@59e03992)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@3be5bf64)">getTemp(com.temp.test.City@3be5bf64)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@42cfd55d)">getTemp(com.temp.test.City@42cfd55d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@16fedbcb)">getTemp(com.temp.test.City@16fedbcb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2a68557d)">getTemp(com.temp.test.City@2a68557d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2d013d6f)">getTemp(com.temp.test.City@2d013d6f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@3ca76e36)">getTemp(com.temp.test.City@3ca76e36)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@6360f5d2)">getTemp(com.temp.test.City@6360f5d2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@33802194)">getTemp(com.temp.test.City@33802194)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@10a248bb)">getTemp(com.temp.test.City@10a248bb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@5c0a6d22)">getTemp(com.temp.test.City@5c0a6d22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@493a451b)">getTemp(com.temp.test.City@493a451b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@74ff4f86)">getTemp(com.temp.test.City@74ff4f86)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@4ada5b70)">getTemp(com.temp.test.City@4ada5b70)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@73dc429a)">getTemp(com.temp.test.City@73dc429a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@2176ef83)">getTemp(com.temp.test.City@2176ef83)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@14282158)">getTemp(com.temp.test.City@14282158)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@4e7bdab7)">getTemp(com.temp.test.City@4e7bdab7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@4711cae6)">getTemp(com.temp.test.City@4711cae6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@4ca5aeb0)">getTemp(com.temp.test.City@4ca5aeb0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@af07314)">getTemp(com.temp.test.City@af07314)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@1381ce6)">getTemp(com.temp.test.City@1381ce6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@1d90f4e8)">getTemp(com.temp.test.City@1d90f4e8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="getTemp(com.temp.test.City@7e07f5e9)">getTemp(com.temp.test.City@7e07f5e9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-master" title="com.temp.test.TestsWeather" hash-for-method="unCheckCities">unCheckCities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-master -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-master" class="panel master">
+          <div class="suite-master-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.temp.test.TestsWeather</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@befb6af)">
+                  </a> <!-- getTemp(com.temp.test.City@befb6af) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@befb6af)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Bikaner: The Actual temp is 25.630005 and expected is 36.0 expected [36.0] but found [25.630005]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@33badf9b)">
+                  </a> <!-- getTemp(com.temp.test.City@33badf9b) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@33badf9b)</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:183)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@4ecee6f3)">
+                  </a> <!-- getTemp(com.temp.test.City@4ecee6f3) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@4ecee6f3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Ajmer: The Actual temp is 23.559998 and expected is 34.0 expected [34.0] but found [23.559998]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@cc45e0c)">
+                  </a> <!-- getTemp(com.temp.test.City@cc45e0c) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@cc45e0c)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Patiala: The Actual temp is 20.589996 and expected is 34.0 expected [34.0] but found [20.589996]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2947baa3)">
+                  </a> <!-- getTemp(com.temp.test.City@2947baa3) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2947baa3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Imphal: The Actual temp is 17.74002 and expected is 29.0 expected [29.0] but found [17.74002]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@fcfcdb9)">
+                  </a> <!-- getTemp(com.temp.test.City@fcfcdb9) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@fcfcdb9)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Ganganagar: The Actual temp is 22.149994 and expected is 36.0 expected [36.0] but found [22.149994]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@7e005f1e)">
+                  </a> <!-- getTemp(com.temp.test.City@7e005f1e) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@7e005f1e)</span>
+                  <div class="stack-trace">java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:909)
+	at java.util.ArrayList$Itr.next(ArrayList.java:859)
+	at com.relevantcodes.extentreports.model.Test.trackLastRunStatus(Test.java:389)
+	at com.relevantcodes.extentreports.ExtentTest.log(ExtentTest.java:102)
+	at com.relevantcodes.extentreports.ExtentTest.log(ExtentTest.java:188)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:220)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@56809717)">
+                  </a> <!-- getTemp(com.temp.test.City@56809717) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@56809717)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Jalandhar: The Actual temp is 20.070007 and expected is 34.0 expected [34.0] but found [20.070007]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@4b6ecd02)">
+                  </a> <!-- getTemp(com.temp.test.City@4b6ecd02) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@4b6ecd02)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Karnal: The Actual temp is 20.700012 and expected is 33.0 expected [33.0] but found [20.700012]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@3ace427)">
+                  </a> <!-- getTemp(com.temp.test.City@3ace427) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@3ace427)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Saharanpur: The Actual temp is 20.839996 and expected is 33.0 expected [33.0] but found [20.839996]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@c8922bd)">
+                  </a> <!-- getTemp(com.temp.test.City@c8922bd) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@c8922bd)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Dehra Dun: The Actual temp is 20.330017 and expected is 31.0 expected [31.0] but found [20.330017]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@3dc53d20)">
+                  </a> <!-- getTemp(com.temp.test.City@3dc53d20) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@3dc53d20)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Panipat: The Actual temp is 21.709991 and expected is 33.0 expected [33.0] but found [21.709991]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2d39b4ac)">
+                  </a> <!-- getTemp(com.temp.test.City@2d39b4ac) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2d39b4ac)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Srinagar: The Actual temp is 10.160004 and expected is 26.0 expected [26.0] but found [10.160004]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@20fa1bb3)">
+                  </a> <!-- getTemp(com.temp.test.City@20fa1bb3) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@20fa1bb3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Moradabad: The Actual temp is 21.399994 and expected is 32.0 expected [32.0] but found [21.399994]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@283ffa91)">
+                  </a> <!-- getTemp(com.temp.test.City@283ffa91) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@283ffa91)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Jodhpur: The Actual temp is 25.720001 and expected is 36.0 expected [36.0] but found [25.720001]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@41823338)">
+                  </a> <!-- getTemp(com.temp.test.City@41823338) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@41823338)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Ludhiana: The Actual temp is 20.200012 and expected is 34.0 expected [34.0] but found [20.200012]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@46042329)">
+                  </a> <!-- getTemp(com.temp.test.City@46042329) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@46042329)</span>
+                  <div class="stack-trace">org.json.JSONException: JSONObject[&quot;main&quot;] not found.
+	at org.json.JSONObject.get(JSONObject.java:572)
+	at org.json.JSONObject.getJSONObject(JSONObject.java:782)
+	at com.temp.api.ApiUtils.getTemp(ApiUtils.java:94)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:198)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@704615c9)">
+                  </a> <!-- getTemp(com.temp.test.City@704615c9) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@704615c9)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Gorakhpur: The Actual temp is 21.830017 and expected is 34.0 expected [34.0] but found [21.830017]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@70996d85)">
+                  </a> <!-- getTemp(com.temp.test.City@70996d85) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@70996d85)</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:183)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2ed9225f)">
+                  </a> <!-- getTemp(com.temp.test.City@2ed9225f) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2ed9225f)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Amritsar: The Actual temp is 18.0 and expected is 34.0 expected [34.0] but found [18.0]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@41bbfee)">
+                  </a> <!-- getTemp(com.temp.test.City@41bbfee) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@41bbfee)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Chandigarh: The Actual temp is 21.059998 and expected is 34.0 expected [34.0] but found [21.059998]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@401c0933)">
+                  </a> <!-- getTemp(com.temp.test.City@401c0933) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@401c0933)</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:183)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@5d187042)">
+                  </a> <!-- getTemp(com.temp.test.City@5d187042) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@5d187042)</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:183)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2c70ea4f)">
+                  </a> <!-- getTemp(com.temp.test.City@2c70ea4f) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2c70ea4f)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Jammu: The Actual temp is 20.0 and expected is 34.0 expected [34.0] but found [20.0]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@d4da5f9)">
+                  </a> <!-- getTemp(com.temp.test.City@d4da5f9) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@d4da5f9)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Hisar: The Actual temp is 22.869995 and expected is 35.0 expected [35.0] but found [22.869995]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@63a1797a)">
+                  </a> <!-- getTemp(com.temp.test.City@63a1797a) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@63a1797a)</span>
+                  <div class="stack-trace">java.lang.AssertionError: For city Muzaffarnagar: The Actual temp is 21.0 and expected is 33.0 expected [33.0] but found [21.0]
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:224)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-master-class-failed -->
+          <div class="suite-master-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.temp.test.TestsWeather</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddCity">
+                  </a> <!-- TestAddCity -->
+                  <span class="method-name">TestAddCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestPrintCities">
+                  </a> <!-- TestPrintCities -->
+                  <span class="method-name">TestPrintCities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@4dc4a612)">
+                  </a> <!-- getTemp(com.temp.test.City@4dc4a612) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@4dc4a612)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@23898ef1)">
+                  </a> <!-- getTemp(com.temp.test.City@23898ef1) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@23898ef1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@6635c29b)">
+                  </a> <!-- getTemp(com.temp.test.City@6635c29b) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@6635c29b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@16a931bb)">
+                  </a> <!-- getTemp(com.temp.test.City@16a931bb) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@16a931bb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@782a92)">
+                  </a> <!-- getTemp(com.temp.test.City@782a92) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@782a92)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2d464ef4)">
+                  </a> <!-- getTemp(com.temp.test.City@2d464ef4) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2d464ef4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@3dcffb54)">
+                  </a> <!-- getTemp(com.temp.test.City@3dcffb54) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@3dcffb54)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@5c7c3f4f)">
+                  </a> <!-- getTemp(com.temp.test.City@5c7c3f4f) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@5c7c3f4f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@3387131)">
+                  </a> <!-- getTemp(com.temp.test.City@3387131) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@3387131)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@542160ff)">
+                  </a> <!-- getTemp(com.temp.test.City@542160ff) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@542160ff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@1c45ae14)">
+                  </a> <!-- getTemp(com.temp.test.City@1c45ae14) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@1c45ae14)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@133ce90c)">
+                  </a> <!-- getTemp(com.temp.test.City@133ce90c) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@133ce90c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@3208d0ce)">
+                  </a> <!-- getTemp(com.temp.test.City@3208d0ce) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@3208d0ce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@60fe5828)">
+                  </a> <!-- getTemp(com.temp.test.City@60fe5828) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@60fe5828)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2cb18b80)">
+                  </a> <!-- getTemp(com.temp.test.City@2cb18b80) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2cb18b80)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@12e505df)">
+                  </a> <!-- getTemp(com.temp.test.City@12e505df) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@12e505df)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@76d18f0a)">
+                  </a> <!-- getTemp(com.temp.test.City@76d18f0a) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@76d18f0a)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@1c355f53)">
+                  </a> <!-- getTemp(com.temp.test.City@1c355f53) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@1c355f53)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2c41ae11)">
+                  </a> <!-- getTemp(com.temp.test.City@2c41ae11) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2c41ae11)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2810dc9f)">
+                  </a> <!-- getTemp(com.temp.test.City@2810dc9f) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2810dc9f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@28dd9748)">
+                  </a> <!-- getTemp(com.temp.test.City@28dd9748) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@28dd9748)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@f4deffa)">
+                  </a> <!-- getTemp(com.temp.test.City@f4deffa) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@f4deffa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@7f90a8d8)">
+                  </a> <!-- getTemp(com.temp.test.City@7f90a8d8) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@7f90a8d8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@409e5689)">
+                  </a> <!-- getTemp(com.temp.test.City@409e5689) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@409e5689)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@5f4df434)">
+                  </a> <!-- getTemp(com.temp.test.City@5f4df434) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@5f4df434)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@402fca48)">
+                  </a> <!-- getTemp(com.temp.test.City@402fca48) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@402fca48)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@71532ea5)">
+                  </a> <!-- getTemp(com.temp.test.City@71532ea5) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@71532ea5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@3792845b)">
+                  </a> <!-- getTemp(com.temp.test.City@3792845b) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@3792845b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@7bbfb230)">
+                  </a> <!-- getTemp(com.temp.test.City@7bbfb230) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@7bbfb230)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@45c950ed)">
+                  </a> <!-- getTemp(com.temp.test.City@45c950ed) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@45c950ed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@9ea34dc)">
+                  </a> <!-- getTemp(com.temp.test.City@9ea34dc) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@9ea34dc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@3201b64e)">
+                  </a> <!-- getTemp(com.temp.test.City@3201b64e) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@3201b64e)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@654d968c)">
+                  </a> <!-- getTemp(com.temp.test.City@654d968c) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@654d968c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2ed9e98c)">
+                  </a> <!-- getTemp(com.temp.test.City@2ed9e98c) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2ed9e98c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@54807c63)">
+                  </a> <!-- getTemp(com.temp.test.City@54807c63) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@54807c63)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2b10acd)">
+                  </a> <!-- getTemp(com.temp.test.City@2b10acd) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2b10acd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@59e03992)">
+                  </a> <!-- getTemp(com.temp.test.City@59e03992) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@59e03992)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@3be5bf64)">
+                  </a> <!-- getTemp(com.temp.test.City@3be5bf64) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@3be5bf64)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@42cfd55d)">
+                  </a> <!-- getTemp(com.temp.test.City@42cfd55d) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@42cfd55d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@16fedbcb)">
+                  </a> <!-- getTemp(com.temp.test.City@16fedbcb) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@16fedbcb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2a68557d)">
+                  </a> <!-- getTemp(com.temp.test.City@2a68557d) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2a68557d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2d013d6f)">
+                  </a> <!-- getTemp(com.temp.test.City@2d013d6f) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2d013d6f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@3ca76e36)">
+                  </a> <!-- getTemp(com.temp.test.City@3ca76e36) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@3ca76e36)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@6360f5d2)">
+                  </a> <!-- getTemp(com.temp.test.City@6360f5d2) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@6360f5d2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@33802194)">
+                  </a> <!-- getTemp(com.temp.test.City@33802194) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@33802194)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@10a248bb)">
+                  </a> <!-- getTemp(com.temp.test.City@10a248bb) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@10a248bb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@5c0a6d22)">
+                  </a> <!-- getTemp(com.temp.test.City@5c0a6d22) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@5c0a6d22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@493a451b)">
+                  </a> <!-- getTemp(com.temp.test.City@493a451b) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@493a451b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@74ff4f86)">
+                  </a> <!-- getTemp(com.temp.test.City@74ff4f86) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@74ff4f86)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@4ada5b70)">
+                  </a> <!-- getTemp(com.temp.test.City@4ada5b70) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@4ada5b70)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@73dc429a)">
+                  </a> <!-- getTemp(com.temp.test.City@73dc429a) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@73dc429a)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@2176ef83)">
+                  </a> <!-- getTemp(com.temp.test.City@2176ef83) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@2176ef83)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@14282158)">
+                  </a> <!-- getTemp(com.temp.test.City@14282158) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@14282158)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@4e7bdab7)">
+                  </a> <!-- getTemp(com.temp.test.City@4e7bdab7) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@4e7bdab7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@4711cae6)">
+                  </a> <!-- getTemp(com.temp.test.City@4711cae6) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@4711cae6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@4ca5aeb0)">
+                  </a> <!-- getTemp(com.temp.test.City@4ca5aeb0) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@4ca5aeb0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@af07314)">
+                  </a> <!-- getTemp(com.temp.test.City@af07314) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@af07314)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@1381ce6)">
+                  </a> <!-- getTemp(com.temp.test.City@1381ce6) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@1381ce6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@1d90f4e8)">
+                  </a> <!-- getTemp(com.temp.test.City@1d90f4e8) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@1d90f4e8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTemp(com.temp.test.City@7e07f5e9)">
+                  </a> <!-- getTemp(com.temp.test.City@7e07f5e9) -->
+                  <span class="method-name">getTemp</span>
+                  <span class="parameters">(com.temp.test.City@7e07f5e9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unCheckCities">
+                  </a> <!-- unCheckCities -->
+                  <span class="method-name">unCheckCities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-master-class-passed -->
+        </div> <!-- panel master -->
+        <div panel-name="test-xml-master" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Vorstel\TestVagrant\NDTVTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;master&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Regression&quot;&gt;
+    &lt;parameter name=&quot;T_Run&quot; value=&quot;02&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.temp.test.TestsWeather&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression --&gt;
+&lt;/suite&gt; &lt;!-- master --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-master" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for master</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-master" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for master</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-master" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for master</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_master');
+function tableData_master() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(89);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getTemp')
+data.setCell(0, 2, 'com.temp.test.TestsWeather')
+data.setCell(0, 3, 10947);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getTemp')
+data.setCell(1, 2, 'com.temp.test.TestsWeather')
+data.setCell(1, 3, 10496);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getTemp')
+data.setCell(2, 2, 'com.temp.test.TestsWeather')
+data.setCell(2, 3, 8512);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getTemp')
+data.setCell(3, 2, 'com.temp.test.TestsWeather')
+data.setCell(3, 3, 8089);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getTemp')
+data.setCell(4, 2, 'com.temp.test.TestsWeather')
+data.setCell(4, 3, 7854);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getTemp')
+data.setCell(5, 2, 'com.temp.test.TestsWeather')
+data.setCell(5, 3, 7810);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getTemp')
+data.setCell(6, 2, 'com.temp.test.TestsWeather')
+data.setCell(6, 3, 7806);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getTemp')
+data.setCell(7, 2, 'com.temp.test.TestsWeather')
+data.setCell(7, 3, 7642);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getTemp')
+data.setCell(8, 2, 'com.temp.test.TestsWeather')
+data.setCell(8, 3, 7634);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getTemp')
+data.setCell(9, 2, 'com.temp.test.TestsWeather')
+data.setCell(9, 3, 7526);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getTemp')
+data.setCell(10, 2, 'com.temp.test.TestsWeather')
+data.setCell(10, 3, 7520);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getTemp')
+data.setCell(11, 2, 'com.temp.test.TestsWeather')
+data.setCell(11, 3, 7457);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getTemp')
+data.setCell(12, 2, 'com.temp.test.TestsWeather')
+data.setCell(12, 3, 7300);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getTemp')
+data.setCell(13, 2, 'com.temp.test.TestsWeather')
+data.setCell(13, 3, 7270);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getTemp')
+data.setCell(14, 2, 'com.temp.test.TestsWeather')
+data.setCell(14, 3, 7253);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getTemp')
+data.setCell(15, 2, 'com.temp.test.TestsWeather')
+data.setCell(15, 3, 7243);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getTemp')
+data.setCell(16, 2, 'com.temp.test.TestsWeather')
+data.setCell(16, 3, 7222);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getTemp')
+data.setCell(17, 2, 'com.temp.test.TestsWeather')
+data.setCell(17, 3, 7198);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'getTemp')
+data.setCell(18, 2, 'com.temp.test.TestsWeather')
+data.setCell(18, 3, 7182);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getTemp')
+data.setCell(19, 2, 'com.temp.test.TestsWeather')
+data.setCell(19, 3, 7165);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getTemp')
+data.setCell(20, 2, 'com.temp.test.TestsWeather')
+data.setCell(20, 3, 7154);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getTemp')
+data.setCell(21, 2, 'com.temp.test.TestsWeather')
+data.setCell(21, 3, 7138);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'getTemp')
+data.setCell(22, 2, 'com.temp.test.TestsWeather')
+data.setCell(22, 3, 7117);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'getTemp')
+data.setCell(23, 2, 'com.temp.test.TestsWeather')
+data.setCell(23, 3, 7092);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getTemp')
+data.setCell(24, 2, 'com.temp.test.TestsWeather')
+data.setCell(24, 3, 7058);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'getTemp')
+data.setCell(25, 2, 'com.temp.test.TestsWeather')
+data.setCell(25, 3, 7056);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getTemp')
+data.setCell(26, 2, 'com.temp.test.TestsWeather')
+data.setCell(26, 3, 7025);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getTemp')
+data.setCell(27, 2, 'com.temp.test.TestsWeather')
+data.setCell(27, 3, 7021);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'getTemp')
+data.setCell(28, 2, 'com.temp.test.TestsWeather')
+data.setCell(28, 3, 6996);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'getTemp')
+data.setCell(29, 2, 'com.temp.test.TestsWeather')
+data.setCell(29, 3, 6982);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'getTemp')
+data.setCell(30, 2, 'com.temp.test.TestsWeather')
+data.setCell(30, 3, 6959);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'getTemp')
+data.setCell(31, 2, 'com.temp.test.TestsWeather')
+data.setCell(31, 3, 6928);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'getTemp')
+data.setCell(32, 2, 'com.temp.test.TestsWeather')
+data.setCell(32, 3, 6761);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'getTemp')
+data.setCell(33, 2, 'com.temp.test.TestsWeather')
+data.setCell(33, 3, 6676);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'getTemp')
+data.setCell(34, 2, 'com.temp.test.TestsWeather')
+data.setCell(34, 3, 6651);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'getTemp')
+data.setCell(35, 2, 'com.temp.test.TestsWeather')
+data.setCell(35, 3, 6583);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'getTemp')
+data.setCell(36, 2, 'com.temp.test.TestsWeather')
+data.setCell(36, 3, 6567);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'getTemp')
+data.setCell(37, 2, 'com.temp.test.TestsWeather')
+data.setCell(37, 3, 6566);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'getTemp')
+data.setCell(38, 2, 'com.temp.test.TestsWeather')
+data.setCell(38, 3, 6561);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'getTemp')
+data.setCell(39, 2, 'com.temp.test.TestsWeather')
+data.setCell(39, 3, 6560);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'getTemp')
+data.setCell(40, 2, 'com.temp.test.TestsWeather')
+data.setCell(40, 3, 6552);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'getTemp')
+data.setCell(41, 2, 'com.temp.test.TestsWeather')
+data.setCell(41, 3, 6531);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'getTemp')
+data.setCell(42, 2, 'com.temp.test.TestsWeather')
+data.setCell(42, 3, 6526);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'getTemp')
+data.setCell(43, 2, 'com.temp.test.TestsWeather')
+data.setCell(43, 3, 6508);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'getTemp')
+data.setCell(44, 2, 'com.temp.test.TestsWeather')
+data.setCell(44, 3, 6507);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'getTemp')
+data.setCell(45, 2, 'com.temp.test.TestsWeather')
+data.setCell(45, 3, 6494);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'getTemp')
+data.setCell(46, 2, 'com.temp.test.TestsWeather')
+data.setCell(46, 3, 6471);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'getTemp')
+data.setCell(47, 2, 'com.temp.test.TestsWeather')
+data.setCell(47, 3, 6465);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'getTemp')
+data.setCell(48, 2, 'com.temp.test.TestsWeather')
+data.setCell(48, 3, 6463);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'getTemp')
+data.setCell(49, 2, 'com.temp.test.TestsWeather')
+data.setCell(49, 3, 6462);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'getTemp')
+data.setCell(50, 2, 'com.temp.test.TestsWeather')
+data.setCell(50, 3, 6442);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'getTemp')
+data.setCell(51, 2, 'com.temp.test.TestsWeather')
+data.setCell(51, 3, 6427);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'getTemp')
+data.setCell(52, 2, 'com.temp.test.TestsWeather')
+data.setCell(52, 3, 6421);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'getTemp')
+data.setCell(53, 2, 'com.temp.test.TestsWeather')
+data.setCell(53, 3, 6419);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'getTemp')
+data.setCell(54, 2, 'com.temp.test.TestsWeather')
+data.setCell(54, 3, 6415);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'getTemp')
+data.setCell(55, 2, 'com.temp.test.TestsWeather')
+data.setCell(55, 3, 6390);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'getTemp')
+data.setCell(56, 2, 'com.temp.test.TestsWeather')
+data.setCell(56, 3, 6386);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'getTemp')
+data.setCell(57, 2, 'com.temp.test.TestsWeather')
+data.setCell(57, 3, 6368);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'getTemp')
+data.setCell(58, 2, 'com.temp.test.TestsWeather')
+data.setCell(58, 3, 6363);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'getTemp')
+data.setCell(59, 2, 'com.temp.test.TestsWeather')
+data.setCell(59, 3, 6355);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'getTemp')
+data.setCell(60, 2, 'com.temp.test.TestsWeather')
+data.setCell(60, 3, 6354);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'getTemp')
+data.setCell(61, 2, 'com.temp.test.TestsWeather')
+data.setCell(61, 3, 6342);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'getTemp')
+data.setCell(62, 2, 'com.temp.test.TestsWeather')
+data.setCell(62, 3, 6334);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'getTemp')
+data.setCell(63, 2, 'com.temp.test.TestsWeather')
+data.setCell(63, 3, 6329);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'getTemp')
+data.setCell(64, 2, 'com.temp.test.TestsWeather')
+data.setCell(64, 3, 6294);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'getTemp')
+data.setCell(65, 2, 'com.temp.test.TestsWeather')
+data.setCell(65, 3, 6266);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'getTemp')
+data.setCell(66, 2, 'com.temp.test.TestsWeather')
+data.setCell(66, 3, 6138);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'getTemp')
+data.setCell(67, 2, 'com.temp.test.TestsWeather')
+data.setCell(67, 3, 6129);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'getTemp')
+data.setCell(68, 2, 'com.temp.test.TestsWeather')
+data.setCell(68, 3, 6095);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'getTemp')
+data.setCell(69, 2, 'com.temp.test.TestsWeather')
+data.setCell(69, 3, 6053);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'getTemp')
+data.setCell(70, 2, 'com.temp.test.TestsWeather')
+data.setCell(70, 3, 6033);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'getTemp')
+data.setCell(71, 2, 'com.temp.test.TestsWeather')
+data.setCell(71, 3, 6012);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'getTemp')
+data.setCell(72, 2, 'com.temp.test.TestsWeather')
+data.setCell(72, 3, 5993);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'getTemp')
+data.setCell(73, 2, 'com.temp.test.TestsWeather')
+data.setCell(73, 3, 5949);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'getTemp')
+data.setCell(74, 2, 'com.temp.test.TestsWeather')
+data.setCell(74, 3, 5920);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'getTemp')
+data.setCell(75, 2, 'com.temp.test.TestsWeather')
+data.setCell(75, 3, 5920);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'getTemp')
+data.setCell(76, 2, 'com.temp.test.TestsWeather')
+data.setCell(76, 3, 5906);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'getTemp')
+data.setCell(77, 2, 'com.temp.test.TestsWeather')
+data.setCell(77, 3, 5891);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'getTemp')
+data.setCell(78, 2, 'com.temp.test.TestsWeather')
+data.setCell(78, 3, 5819);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'getTemp')
+data.setCell(79, 2, 'com.temp.test.TestsWeather')
+data.setCell(79, 3, 5818);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'getTemp')
+data.setCell(80, 2, 'com.temp.test.TestsWeather')
+data.setCell(80, 3, 5769);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'getTemp')
+data.setCell(81, 2, 'com.temp.test.TestsWeather')
+data.setCell(81, 3, 5381);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'getTemp')
+data.setCell(82, 2, 'com.temp.test.TestsWeather')
+data.setCell(82, 3, 5169);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'getTemp')
+data.setCell(83, 2, 'com.temp.test.TestsWeather')
+data.setCell(83, 3, 4073);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'getTemp')
+data.setCell(84, 2, 'com.temp.test.TestsWeather')
+data.setCell(84, 3, 3284);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'unCheckCities')
+data.setCell(85, 2, 'com.temp.test.TestsWeather')
+data.setCell(85, 3, 2890);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'getTemp')
+data.setCell(86, 2, 'com.temp.test.TestsWeather')
+data.setCell(86, 3, 1847);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'TestAddCity')
+data.setCell(87, 2, 'com.temp.test.TestsWeather')
+data.setCell(87, 3, 1171);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'TestPrintCities')
+data.setCell(88, 2, 'com.temp.test.TestsWeather')
+data.setCell(88, 3, 1);
+window.suiteTableData['master']= { tableData: data, tableDiv: 'times-div-master'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-master">
+              </div> <!-- times-div-master -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-master" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for master</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-master" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-master" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.temp.test.TestsWeather</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(02)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">38199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddCity</span>
+                <span class="method-start">38200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">39373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestPrintCities</span>
+                <span class="method-start">39374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">39375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unCheckCities</span>
+                <span class="method-start">39376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@3be5bf64)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@54807c63)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@3208d0ce)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@654d968c)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@133ce90c)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">42291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@2ed9225f)</span>
+                <span class="method-start">42292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@23898ef1)</span>
+                <span class="method-start">42292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@3201b64e)</span>
+                <span class="method-start">42293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@4ecee6f3)</span>
+                <span class="method-start">42293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@4dc4a612)</span>
+                <span class="method-start">42293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">48183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@1d90f4e8)</span>
+                <span class="method-start">48184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">48211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@2176ef83)</span>
+                <span class="method-start">48212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">48240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@7e07f5e9)</span>
+                <span class="method-start">48241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">48284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@befb6af)</span>
+                <span class="method-start">48285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">48306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@74ff4f86)</span>
+                <span class="method-start">48306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">48325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@3792845b)</span>
+                <span class="method-start">48326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">48346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@41bbfee)</span>
+                <span class="method-start">48347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">48557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@2d464ef4)</span>
+                <span class="method-start">48558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">50104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@33badf9b)</span>
+                <span class="method-start">50104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">50382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@c8922bd)</span>
+                <span class="method-start">50382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">54701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@5f4df434)</span>
+                <span class="method-start">54702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">54745 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@14282158)</span>
+                <span class="method-start">54746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">54772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@fcfcdb9)</span>
+                <span class="method-start">54772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">54809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@5c0a6d22)</span>
+                <span class="method-start">54809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">54833 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@704615c9)</span>
+                <span class="method-start">54833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">54857 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@1c355f53)</span>
+                <span class="method-start">54858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">55485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@493a451b)</span>
+                <span class="method-start">55486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">55600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@7bbfb230)</span>
+                <span class="method-start">55601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">56016 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@d4da5f9)</span>
+                <span class="method-start">56016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">61299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@7f90a8d8)</span>
+                <span class="method-start">61300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">61330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@4e7bdab7)</span>
+                <span class="method-start">61330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">61354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@2947baa3)</span>
+                <span class="method-start">61354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">61971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@542160ff)</span>
+                <span class="method-start">61971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">61975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@42cfd55d)</span>
+                <span class="method-start">61976 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">62015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@12e505df)</span>
+                <span class="method-start">62016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">62079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@56809717)</span>
+                <span class="method-start">62080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">62162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@2c70ea4f)</span>
+                <span class="method-start">62162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">63121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@6635c29b)</span>
+                <span class="method-start">63122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">63542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@28dd9748)</span>
+                <span class="method-start">63543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">68313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@2a68557d)</span>
+                <span class="method-start">68313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">68325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@283ffa91)</span>
+                <span class="method-start">68326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">68366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@402fca48)</span>
+                <span class="method-start">68367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">68390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@4b6ecd02)</span>
+                <span class="method-start">68390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">68413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@76d18f0a)</span>
+                <span class="method-start">68413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">68487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@60fe5828)</span>
+                <span class="method-start">68487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">68542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@4ca5aeb0)</span>
+                <span class="method-start">68543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">69462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@33802194)</span>
+                <span class="method-start">69462 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">70179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@2c41ae11)</span>
+                <span class="method-start">70179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">74040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@41823338)</span>
+                <span class="method-start">74040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">74643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@5d187042)</span>
+                <span class="method-start">74643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">74682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@4711cae6)</span>
+                <span class="method-start">74682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">74707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@2b10acd)</span>
+                <span class="method-start">74708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">74731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@20fa1bb3)</span>
+                <span class="method-start">74731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">74758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@4ada5b70)</span>
+                <span class="method-start">74759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">74829 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@63a1797a)</span>
+                <span class="method-start">74829 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">75698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@16a931bb)</span>
+                <span class="method-start">75698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">76458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@73dc429a)</span>
+                <span class="method-start">76459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">76490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@10a248bb)</span>
+                <span class="method-start">76490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">77318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@46042329)</span>
+                <span class="method-start">77318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">80503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@3ca76e36)</span>
+                <span class="method-start">80504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">80526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@782a92)</span>
+                <span class="method-start">80527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">80551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@2810dc9f)</span>
+                <span class="method-start">80551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">80603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@3dc53d20)</span>
+                <span class="method-start">80603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">80665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@cc45e0c)</span>
+                <span class="method-start">80665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">81412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@1381ce6)</span>
+                <span class="method-start">81413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">82863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@6360f5d2)</span>
+                <span class="method-start">82863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">82954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@45c950ed)</span>
+                <span class="method-start">82954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">83733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@7e005f1e)</span>
+                <span class="method-start">83734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">83826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@f4deffa)</span>
+                <span class="method-start">83826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">86886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@59e03992)</span>
+                <span class="method-start">86886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">86914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@5c7c3f4f)</span>
+                <span class="method-start">86914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">87011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@2ed9e98c)</span>
+                <span class="method-start">87011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">87695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@3ace427)</span>
+                <span class="method-start">87695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">87888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@71532ea5)</span>
+                <span class="method-start">87888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">89267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@3dcffb54)</span>
+                <span class="method-start">89267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">89429 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@2d39b4ac)</span>
+                <span class="method-start">89430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">90764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@af07314)</span>
+                <span class="method-start">90764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">90785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@70996d85)</span>
+                <span class="method-start">90785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">92247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTemp(com.temp.test.City@401c0933)</span>
+                <span class="method-start">92249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">93313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@2d013d6f)</span>
+                <span class="method-start">93313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">93335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@3387131)</span>
+                <span class="method-start">93335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">93939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@409e5689)</span>
+                <span class="method-start">93939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">94161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@9ea34dc)</span>
+                <span class="method-start">94161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">94859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@1c45ae14)</span>
+                <span class="method-start">94859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">95523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@16fedbcb)</span>
+                <span class="method-start">95523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3aaf4f07)</span>
+                <span class="method-start">95534 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTemp(com.temp.test.City@2cb18b80)</span>
+                <span class="method-start">95534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">101673 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

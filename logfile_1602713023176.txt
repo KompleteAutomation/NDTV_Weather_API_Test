@@ -1,0 +1,18 @@
+INFO - Logging events
+INFO - Opening Chrome Browser
+INFO - Clicked on 'No Thanks' Prompt
+INFO - Open Weather Menu
+INFO - List of City captured successfully 86
+INFO - Displayed cities successfully
+INFO - Uncheck all cities 
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 34.0 for City Ajmer
+INFO - Get Temp using API
+INFO - Temperature on UI is 36.0 for City Ahmedabad
+INFO - Get Temp using API
+INFO - Temperature from API is 28.0 for City Ahmedabad
+INFO - Temperature from API is 23.339996 for City Ajmer
+INFO - PASS: Difference between the API and UI temp: 8.0 for City Ahmedabad is less than 10
+ERROR - FAIL: Difference between the API and UI temp: 10.660004 for City Ajmer is greater than 10
+INFO - Close the Browser

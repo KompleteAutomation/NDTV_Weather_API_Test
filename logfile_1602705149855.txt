@@ -1,0 +1,22 @@
+INFO - Logging events
+INFO - Opening Chrome Browser
+INFO - Open Weather Menu
+INFO - List of City captured successfully 86
+INFO - Displayed cities successfully
+INFO - Uncheck all cities 
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Select the city on the pin menu
+INFO - Temperature on UI is 36.0 for City Ahmedabad
+INFO - Get Temp using API
+INFO - Temperature on UI is 34.0 for City Ajmer
+INFO - Get Temp using API
+INFO - Temperature on UI is 34.0 for City Aligarh
+INFO - Get Temp using API
+INFO - Temperature from API is 30.350006 for City Ahmedabad
+INFO - Temperature from API is 23.670013 for City Ajmer
+INFO - Temperature from API is 26.380005 for City Aligarh
+ERROR - FAIL: Difference between the API and UI temp: 10.329987 for City Ajmer is greater than 10
+INFO - PASS: Difference between the API and UI temp: 5.649994 for City Ahmedabad is less than 10
+INFO - PASS: Difference between the API and UI temp: 7.619995 for City Aligarh is less than 10
+INFO - Close the Browser

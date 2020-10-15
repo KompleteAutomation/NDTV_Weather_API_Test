@@ -1,0 +1,1158 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>73/16/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 15 01:24:59 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>95 seconds (95114 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@523b24ee</td>
+<td><div><pre>java.lang.AssertionError: For city Ajmer: The Actual temp is 23.670013 and expected is 34.0 expected [34.0] but found [23.670013]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2002061650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2002061650'><pre>java.lang.AssertionError: For city Ajmer: The Actual temp is 23.670013 and expected is 34.0 expected [34.0] but found [23.670013]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@4f43a43b</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:155)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1181094948", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1181094948'><pre>java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:155)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@299ddee9</td>
+<td><div><pre>java.lang.AssertionError: For city Chandigarh: The Actual temp is 21.720001 and expected is 34.0 expected [34.0] but found [21.720001]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace890536977", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace890536977'><pre>java.lang.AssertionError: For city Chandigarh: The Actual temp is 21.720001 and expected is 34.0 expected [34.0] but found [21.720001]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@2258c44f</td>
+<td><div><pre>java.lang.AssertionError: For city Dehra Dun: The Actual temp is 20.940002 and expected is 31.0 expected [31.0] but found [20.940002]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1163507582", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1163507582'><pre>java.lang.AssertionError: For city Dehra Dun: The Actual temp is 20.940002 and expected is 31.0 expected [31.0] but found [20.940002]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@5e8cd594</td>
+<td><div><pre>java.lang.AssertionError: For city Ganganagar: The Actual temp is 24.559998 and expected is 36.0 expected [36.0] but found [24.559998]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1430043848", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1430043848'><pre>java.lang.AssertionError: For city Ganganagar: The Actual temp is 24.559998 and expected is 36.0 expected [36.0] but found [24.559998]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@5fd56e5e</td>
+<td><div><pre>java.lang.AssertionError: For city Imphal: The Actual temp is 18.649994 and expected is 29.0 expected [29.0] but found [18.649994]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1839748610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1839748610'><pre>java.lang.AssertionError: For city Imphal: The Actual temp is 18.649994 and expected is 29.0 expected [29.0] but found [18.649994]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@53dae897</td>
+<td><div><pre>java.lang.AssertionError: For city Jalandhar: The Actual temp is 22.01001 and expected is 34.0 expected [34.0] but found [22.01001]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace869790590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace869790590'><pre>java.lang.AssertionError: For city Jalandhar: The Actual temp is 22.01001 and expected is 34.0 expected [34.0] but found [22.01001]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@255199c6</td>
+<td><div><pre>java.lang.AssertionError: For city Jammu: The Actual temp is 21.0 and expected is 34.0 expected [34.0] but found [21.0]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace431127890", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace431127890'><pre>java.lang.AssertionError: For city Jammu: The Actual temp is 21.0 and expected is 34.0 expected [34.0] but found [21.0]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@8396d6a</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:155)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1358755595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1358755595'><pre>java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:155)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>2</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@73aaf684</td>
+<td><div><pre>java.lang.AssertionError: For city Ludhiana: The Actual temp is 22.140015 and expected is 34.0 expected [34.0] but found [22.140015]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace349212144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace349212144'><pre>java.lang.AssertionError: For city Ludhiana: The Actual temp is 22.140015 and expected is 34.0 expected [34.0] but found [22.140015]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>9</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@1c839d4a</td>
+<td><div><pre>org.json.JSONException: JSONObject[&quot;main&quot;] not found.
+	at org.json.JSONObject.get(JSONObject.java:572)
+	at org.json.JSONObject.getJSONObject(JSONObject.java:782)
+	at com.temp.api.ApiUtils.getTemp(ApiUtils.java:94)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:167)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1124088234", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1124088234'><pre>org.json.JSONException: JSONObject[&quot;main&quot;] not found.
+	at org.json.JSONObject.get(JSONObject.java:572)
+	at org.json.JSONObject.getJSONObject(JSONObject.java:782)
+	at com.temp.api.ApiUtils.getTemp(ApiUtils.java:94)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:167)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@ef1483b</td>
+<td><div><pre>java.lang.AssertionError: For city Patiala: The Actual temp is 22.580017 and expected is 34.0 expected [34.0] but found [22.580017]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1209678475", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1209678475'><pre>java.lang.AssertionError: For city Patiala: The Actual temp is 22.580017 and expected is 34.0 expected [34.0] but found [22.580017]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@2f9fe876</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:155)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace154853647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace154853647'><pre>java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:155)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>3</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@73a01bb2</td>
+<td><div><pre>java.lang.AssertionError: For city Saharanpur: The Actual temp is 22.140015 and expected is 33.0 expected [33.0] but found [22.140015]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1540835248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1540835248'><pre>java.lang.AssertionError: For city Saharanpur: The Actual temp is 22.140015 and expected is 33.0 expected [33.0] but found [22.140015]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@19b264ce</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:155)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace506528124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace506528124'><pre>java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:155)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>4</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@1e7d6c27</td>
+<td><div><pre>java.lang.AssertionError: For city Srinagar: The Actual temp is 11.860016 and expected is 26.0 expected [26.0] but found [11.860016]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1856787580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1856787580'><pre>java.lang.AssertionError: For city Srinagar: The Actual temp is 11.860016 and expected is 26.0 expected [26.0] but found [11.860016]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:744)
+	at com.temp.test.TestsWeather.getTemp(TestsWeather.java:181)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.temp.test.TestsWeather.TestAddCity()'><b>TestAddCity</b><br>Test class: com.temp.test.TestsWeather</td>
+<td></td>
+<td>3</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.TestPrintCities()'><b>TestPrintCities</b><br>Test class: com.temp.test.TestsWeather</td>
+<td></td>
+<td>0</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@243b3f64</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@de7a6a2</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@4ef4cfa9</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@79d19fab</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@1d971846</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@2ca15c06</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@116ce025</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@4755d782</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@109c4053</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@51081a0</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@26a28d77</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@467dad7f</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@468cd7ea</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@628d32d9</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@78eb6455</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@7c0feff7</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@31af3812</td>
+<td></td>
+<td>11</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@42b3f648</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@349f93c3</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@25323729</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@7745e05c</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@4e2d75c3</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@8a5e46f</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@79ca6ef3</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@480a97ca</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@50deb1a3</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@19c63aaa</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@5c74a7fd</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@63b36e67</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@145e897e</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@319de609</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@7a960b99</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@587c72a2</td>
+<td></td>
+<td>10</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@5b081037</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@e0ced98</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@7e3128f7</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@4db3b64e</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@27cd4ff</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@2623ffb6</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@2ad299e8</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@660d95e8</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@5928f3ab</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@279f4c9e</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@5f323f26</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@793639d7</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@73ee8992</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@5e9847f2</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@79192199</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@4b46f197</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@7ebe1755</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@554afee9</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@651ae152</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@14f98a8</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@2fc1e53c</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@47b9f477</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@7dc12a59</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@6668bcc5</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@209d1541</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@141e8ae1</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@460b265d</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@210c3e76</td>
+<td></td>
+<td>8</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@1e2a8f55</td>
+<td></td>
+<td>7</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@123151a2</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@65cbf250</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@401fafcd</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@2e21a680</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@dc608c</td>
+<td></td>
+<td>5</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@52140b26</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@7c31ff25</td>
+<td></td>
+<td>6</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.getTemp()'><b>getTemp</b><br>Test class: com.temp.test.TestsWeather<br>Parameters: com.temp.test.City@621e37ba</td>
+<td></td>
+<td>4</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+<tr>
+<td title='com.temp.test.TestsWeather.unCheckCities()'><b>unCheckCities</b><br>Test class: com.temp.test.TestsWeather</td>
+<td></td>
+<td>2</td>
+<td>com.temp.test.TestsWeather@42607a4f</td></tr>
+</table><p>
+</body>
+</html>

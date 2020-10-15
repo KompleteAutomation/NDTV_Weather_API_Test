@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [master]">
+  <test thread-count="5" name="Regression(failed)">
+    <parameter name="T_Run" value="02"/>
+    <classes>
+      <class name="com.temp.test.TestsWeather">
+        <methods>
+          <include name="TestAddCity"/>
+          <include name="getTemp" invocation-numbers="1"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="unCheckCities"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.temp.test.TestsWeather -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [master] -->

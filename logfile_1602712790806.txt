@@ -1,0 +1,3 @@
+INFO - Logging events
+INFO - Opening Chrome Browser
+INFO - Open Weather Menu

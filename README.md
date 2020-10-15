@@ -45,15 +45,43 @@ This project captures the Temp from UI and API, compares the same using the vari
 
 # Tests Added
   Capture all Cities
+  
   Uncheck all cities on Pin your City List
+  
   UI (tempUI) Temperature 
+  
     Find the city on Pin your City
+
     Check the city
+
     Store  the temperature in Degree C and F – Capture the screenshot
+  
   API (tempAPI) Temperature
-    Get the JSON response for City above – Store the JSON Response 
-    Get the temp in K from the JSON response	
-    Convert temperature from Degree K to C
+      
+      Get the JSON response for City above – Store the JSON Response 
+      
+      Get the temp in K from the JSON response	
+      
+      Convert temperature from Degree K to C
+  
   Find the difference (should not exceed the variance – set to 10)
+  
     Compare tempUI and tempAPI, if the difference exceeds 10 – mark the test as Fail and attach the screen shot captured
 
+
+
+#ToDo
+
+  Capture the results in Excel sheet
+  
+  Convert the test in BDD 
+  
+  Add a utility to email the report
+  
+  Run the test on different browsers
+  
+  Supply the data from excel sheet if required
+  
+  Email the report with evidences
+  
+  Integrate with ANT and CI

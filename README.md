@@ -27,20 +27,20 @@ This project captures the Temp from UI and API, compares the same using the vari
 
 
 # Description of files
-  MyLogger: Log all the activities
-  Evidences Captured
+  ##MyLogger: Log all the activities
+  ##Evidences Captured
 
-  Screenshots – Evidences captured for all cities
+  ###Screenshots – Evidences captured for all cities
 
-  JSON_Resp – JSON response captured for each city
+  ###JSON_Resp – JSON response captured for each city
 
-  APIUtils: All methods to fetch Response, Status Code, Status Line, Response Header, etc
+  ##APIUtils: All methods to fetch Response, Status Code, Status Line, Response Header, etc
 
-  Utilities:
-  Common utilities to tskeScreenShot, Select Value from list, Select value from Drop Down, Actions like Move to, Mouse Hover etc
+  ##Utilities:
+  ###Common utilities to tskeScreenShot, Select Value from list, Select value from Drop Down, Actions like Move to, Mouse Hover etc
   
-  Constants: maintain the values for URL, ApiKey, paths etc
-  Utils to convert temperature
+  ###Constants: maintain the values for URL, ApiKey, paths etc
+  ##Utils to convert temperature
 
 
 # Tests Added
@@ -58,19 +58,19 @@ This project captures the Temp from UI and API, compares the same using the vari
   
   API (tempAPI) Temperature
       
-      Get the JSON response for City above – Store the JSON Response 
+      *Get the JSON response for City above – Store the JSON Response 
       
-      Get the temp in K from the JSON response	
+      *Get the temp in K from the JSON response	
       
-      Convert temperature from Degree K to C
+      *Convert temperature from Degree K to C
   
   Find the difference (should not exceed the variance – set to 10)
   
-    Compare tempUI and tempAPI, if the difference exceeds 10 – mark the test as Fail and attach the screen shot captured
+    *Compare tempUI and tempAPI, if the difference exceeds 10 – mark the test as Fail and attach the screen shot captured
 
 
 
-#ToDo
+# ToDo
 
   Capture the results in Excel sheet
   
